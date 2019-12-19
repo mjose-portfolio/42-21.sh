@@ -18,7 +18,7 @@ The format for redirecting input is:
 
 Where the optional `n` represents the file descriptor number. If the number is omitted, the redirection shall refer to standard input (file descriptor 0).
 
-Return to index: [Redirections](#34-Redirections), [42sh](../#42sh)
+Return to index: [Redirections](#34-Redirections), [21sh](../#21sh)
 
 ## 3.4.2 Redirecting Output
 
@@ -30,7 +30,7 @@ The two general formats for redirecting output are:
 
 Where the optional *n* represents the file descriptor number. If the number is omitted, the redirection shall refer to standard output (file descriptor 1).
 
-Return to index: [Redirections](#34-Redirections), [42sh](../#42sh)
+Return to index: [Redirections](#34-Redirections), [21sh](../#21sh)
 
 ## 3.4.3 Here-Document
 
@@ -44,7 +44,7 @@ delimiter
 
 Where the optional `n` represents the file descriptor number. If the number is omitted, the here-document refers to standard input (file descriptor 0). It is unspecified whether the file descriptor is opened as a regular file, a special file, or a pipe. Portable applications cannot rely on the file descriptor being seekable.
 
-Return to index: [Redirections](#34-Redirections), [42sh](../#42sh)
+Return to index: [Redirections](#34-Redirections), [21sh](../#21sh)
 
 ## 3.4.4 Duplicating an Input File Descriptor
 
@@ -58,7 +58,7 @@ shall duplicate one input file descriptor from another, or shall close one. If `
 
 If `word` evaluates to `-`, file descriptor `n`, or standard input if `n` is not specified, shall be closed.
 
-Return to index: [Redirections](34-#Redirections), [42sh](../#42sh)
+Return to index: [Redirections](34-#Redirections), [21sh](../#21sh)
 
 ## 3.4.5 Duplicating an Output File Descriptor
 
@@ -72,5 +72,4 @@ shall duplicate one output file descriptor from another, or shall close one. If 
 
  If 'word' evaluates to `-`, file descriptor `n`, or standard output if `n` is not specified, is closed.
 
-Return to index: [Redirections](#34-redirections), [42sh](../#42sh)
-
+Return to index: [Redirections](#34-redirections), [21sh](../#21sh)
