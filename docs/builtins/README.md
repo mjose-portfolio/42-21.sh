@@ -6,8 +6,8 @@
 - [3.1.3 env](#313-env)
   * [3.1.3.1 Options](#3131-options)
 - [3.1.4 exit [n]](#314-exit--n-)
-- [3.1.5 set](#315-set)
-- [3.1.6 unset](#316-unset)
+- [3.1.5 setenv](#315-setenv)
+- [3.1.6 unsetenv](#316-unsetenv)
 
 #### 3.1.1 cd
 

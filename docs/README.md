@@ -1,6 +1,6 @@
 # 21sh
 
-This project consists of creating a complete shell and uses the work done on minishell project. We build our own shell. This project involves a large variety of standard UNIX (and POSIX) functionalities.
+This project consists of creating a complete shell and uses the work done on [minishell](https://github.com/mjose-portfolio/42-Minishell#minishell) project. We build our own shell. This project involves a large variety of standard UNIX (and POSIX) functionalities.
 
 ## 1. Project Partners
 
@@ -18,10 +18,10 @@ This project consists of creating a complete shell and uses the work done on min
 
 ### 2.1. Make Options
 
-- `make`: Compiles the files and creates the executable 21sh
+- `make`: Compiles the files and creates the executable `21sh`.
 - `make clean`: Remove binary files.
-- `make fclean`: Deletes the binary files and the 21sh executable file.
-- `make re`: Deletes the binary files and the 21sh executable file and recompiles them.
+- `make fclean`: Deletes the binary files and the `21sh` executable file.
+- `make re`: Deletes the binary files and the `21sh` executable file and recompiles them.
 
 ## 3. Features
 ------
@@ -79,8 +79,8 @@ command1 ; command2 ...
 ### 3.7 Management Of Internal Variables
 
 - List the internal variables of the shell via the built-in [env](./builtins#313-env).
-- Removal of internal and environmental variables, via the built-in [unsetenv](./builtins#316-unset).
-- Creation of environment variables for a single command, example :
+- Removal of internal and environmental variables, via the built-in [unsetenv](./builtins#316-unsetenv).
+- Creation of environment variables for a single command via the built-in [setenv](./builtins#316-setenv).
 
 ### 3.8 Inhibitors
 
